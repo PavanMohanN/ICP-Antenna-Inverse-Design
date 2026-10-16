@@ -416,15 +416,13 @@ The derived and fixed relations hold exactly in all 500 files (checked by step 0
 
 ---
 
-## 12. Citation and licence
+`@author: Pavan Mohan Neelamraju`
 
-If you use this code or data, please cite the paper (see `CITATION.cff`):
+`Affiliation: Loughborough University`
 
-```
-P. M. Neelamraju, A. Bansal and W. Whittow, "Inverse, Constrained and Physically Consistent Learning for the Design of a
-Low-Profile Wideband Patch Antenna," submitted to the European Conference on Antennas and Propagation (EuCAP), 2027.
-```
+**Email**: npavanmohan3@gmail.com
 
-Licence: add a `LICENSE` file before making the repository public (for example MIT for the code and CC BY 4.0 for the data, subject to the policy of Loughborough University).
+**Personal Website 🔴🔵**: [[pavanmohan.netlify.app](https://pavanmohan.netlify.app/)]
 
-Contact: Pavan Mohan Neelamraju, Wolfson School of Mechanical, Electrical and Manufacturing Engineering, Loughborough University.
+
+---
