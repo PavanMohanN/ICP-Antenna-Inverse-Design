@@ -248,18 +248,16 @@ python run.py figures                              # the four paper figures -> f
 python run.py figures --only forward inverse       # selected figures
 python run.py figures --formats pdf svg png        # other formats
 python run.py figures --run quick                  # figures of your own run (runs/quick/figure_data)
-python run.py figures --to-paper                   # overwrite paper/figures/*.pdf used by Paper.tex
 ```
 
 * The figures are drawn by one editable script, `figures/make_figures.py`. It needs only NumPy and matplotlib.
 * It reads small data files from `runs/<run>/figure_data/`, so restyling a figure never needs retraining.
 
-| Figure | Function | Content |
-|---|---|---|
-| Fig. 2 | `fig_framework` | ICP framework diagram |
-| Fig. 3 | `fig_extraction` | frequency hold-out test of the equivalent circuit (Smith chart and magnitude) |
-| Fig. 4 | `fig_forward` | PC-Net on unseen geometries: responses, resonance parity, screening precision |
-| Fig. 5 | `fig_inverse` | inverse design: amortisation curve, f·L scaling, predicted S11 of Table IV designs |
+| Function | Content |
+|---|---|
+| `fig_extraction` | frequency hold-out test of the equivalent circuit (Smith chart and magnitude) |
+| `fig_forward` | PC-Net on unseen geometries: responses, resonance parity, screening precision |
+| `fig_inverse` | inverse design: amortisation curve, f·L scaling, predicted S11 of Table IV designs |
 
 
 ---
