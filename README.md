@@ -7,7 +7,8 @@ You give an S-parameter target, for example *|S11| ≤ −10 dB from 5 to 6 GHz*
 The tool returns HFSS-ready antenna dimensions, the predicted S11 with calibrated uncertainty and, if you ask, an RF equivalent circuit.
 Every step, from the 500 raw HFSS files to the tables and figures of the paper, can be rerun with one command.
 
-![ICP framework](runs/paper/figures/fig_framework.png)
+![ICP framework]<img width="1600" height="314" alt="fig_framework" src="https://github.com/user-attachments/assets/6f9b9faa-48eb-454c-a706-f1188c146cb4" />
+
 
 ---
 
