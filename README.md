@@ -65,7 +65,7 @@ python run.py reproduce --quick                       # 6. the whole pipeline fr
 
 ## 2. Installation
 
-**Requirements.** Python 3.10 or newer on Windows, macOS or Linux. A CPU is enough; no GPU is used. About 1 GB of disk for the packages.
+**Requirements.** Python 3.10 or newer on Windows, macOS or Linux. A CPU is enough; no GPU is used. About 1 GB of disk for the packages. 
 
 **Step 1. Get the code.**
 
