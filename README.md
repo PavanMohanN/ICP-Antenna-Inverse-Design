@@ -1,7 +1,7 @@
 # ICP Antenna Inverse Design
 
 **Inverse, Constrained and Physically Consistent (ICP) learning for the design of a low-profile wideband patch antenna.**
-Code, data, trained models and paper of the EuCAP 2027 submission by P. M. Neelamraju, A. Bansal and W. Whittow (Loughborough University).
+Code, data, trained models and paper of the EuCAP 2027 submission by A. Kumar, P. M. Neelamraju, A. Bansal and W. Whittow (Loughborough University).
 
 You give an S-parameter target, for example *|S11| ≤ −10 dB from 5 to 6 GHz*.
 The tool returns HFSS-ready antenna dimensions, the predicted S11 with calibrated uncertainty and, if you ask, an RF equivalent circuit.
