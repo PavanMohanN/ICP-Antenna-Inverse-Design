@@ -1,0 +1,10 @@
+# Everything: designer, figures, tests and the training pipeline.   pip install -r requirements.txt
+# Tip: the CPU build of PyTorch is enough and much smaller. Install it first:
+#      pip install torch --index-url https://download.pytorch.org/whl/cpu
+numpy>=2.0
+scipy>=1.13
+matplotlib>=3.8
+pandas>=2.2
+scikit-learn>=1.4
+torch>=2.3
+pytest>=7.4

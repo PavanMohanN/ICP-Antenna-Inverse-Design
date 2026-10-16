@@ -1,0 +1,10 @@
+{
+ "kappa": 1.2180586052533313,
+ "fL_hfss_mean": 96.83175794117648,
+ "fL_hfss_std": 5.055029967441866,
+ "fL_icp_mean": 97.32842857142857,
+ "fL_icp_std": 2.913768377401137,
+ "family_threshold_C_mm": 2.0,
+ "L_lower_bound_mm": 15.0,
+ "note": "fL statistics use designs with C < 2 mm"
+}

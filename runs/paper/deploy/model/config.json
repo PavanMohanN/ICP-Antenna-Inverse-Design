@@ -1,0 +1,65 @@
+{
+ "params": [
+  "Air_gap",
+  "W_Patch",
+  "L_Patch",
+  "Sx",
+  "Sy",
+  "W_Patch1",
+  "WS",
+  "Curve_Amp1",
+  "Extra"
+ ],
+ "lb": [
+  1.5,
+  10.0,
+  15.0,
+  0.2,
+  0.2,
+  8.0,
+  0.2,
+  0.5,
+  0.5
+ ],
+ "ub": [
+  5.0,
+  23.0,
+  23.0,
+  5.0,
+  5.0,
+  17.0,
+  1.5,
+  4.0,
+  8.0
+ ],
+ "kmax": 6,
+ "kappa": 1.2180586052533313,
+ "grid_mm": 0.01,
+ "n_ensemble": 5,
+ "n_layers_fwd": 4,
+ "n_layers_gen": 4,
+ "zdim": 4,
+ "support_k": 3,
+ "support_dmax": 0.650635302066803,
+ "fixed": {
+  "H_sub": 0.79,
+  "Curve_len1": 1.0
+ },
+ "derived": {
+  "Curve_pos": "0.5*L_Patch + 2",
+  "L_Patch1": "W_Patch1 + Extra"
+ },
+ "units": "mm",
+ "band_GHz": [
+  4.0,
+  7.0
+ ],
+ "trained_on": "500 HFSS 2024.2 designs (WP_AI_V1_sweep)",
+ "pipeline_mode": "full",
+ "widest_band_in_data_GHz": {
+  "-10": 0.975,
+  "-12": 0.833,
+  "-15": 0.629,
+  "-20": 0.299
+ }
+}

@@ -1,0 +1,10 @@
+{
+ "kappa": 1.2180586052533313,
+ "n_points": 2935,
+ "coverage_mu_pm_sigma_raw": 0.4504258943781942,
+ "median_sigma_dB": 1.4409470558166504,
+ "precision_mean_rule": 0.6894639556377079,
+ "recall_mean_rule": 0.5747303543913713,
+ "precision_robust_rule": 0.875,
+ "recall_robust_rule": 0.2049306625577812
+}

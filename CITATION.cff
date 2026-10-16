@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper below."
+title: "ICP Antenna Inverse Design: code, data and models"
+type: software
+authors:
+  - family-names: Neelamraju
+    given-names: Pavan Mohan
+    affiliation: "Loughborough University"
+  - family-names: Bansal
+    given-names: Aakash
+    affiliation: "Loughborough University"
+  - family-names: Whittow
+    given-names: Will
+    affiliation: "Loughborough University"
+keywords:
+  - patch antenna
+  - inverse design
+  - machine learning
+  - equivalent circuit
+preferred-citation:
+  type: conference-paper
+  title: "Inverse, Constrained and Physically Consistent Learning for the Design of a Low-Profile Wideband Patch Antenna"
+  authors:
+    - family-names: Neelamraju
+      given-names: Pavan Mohan
+    - family-names: Bansal
+      given-names: Aakash
+    - family-names: Whittow
+      given-names: Will
+  conference:
+    name: "European Conference on Antennas and Propagation (EuCAP 2027)"
+  year: 2027
+  notes: "Submitted."

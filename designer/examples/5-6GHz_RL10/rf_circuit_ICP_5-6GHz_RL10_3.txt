@@ -1,0 +1,11 @@
+RF equivalent circuit of ICP_5-6GHz_RL10_3 (fitted to the predicted S11, 4-7 GHz, Z0 = 50 ohm)
+  feed delay tau = 139 ps (round trip)
+  series: R0 = 0.18 ohm, L0 = 0.822 nH, C0 = 0.577 pF
+  parallel RLC resonators (in series):
+     f_k (GHz)     Q      R (ohm)    L (nH)    C (pF)   in 4-7 GHz?
+        3.000     28.4      825.2    1.5417     1.826   no (shapes the band edge)
+        5.222      9.4       29.1    0.0947     9.812   yes
+        5.378      8.3       10.3    0.0367    23.842   yes
+        5.940      7.7       29.2    0.1022     7.023   yes
+        7.658     52.6     1356.4    0.5363     0.805   no (shapes the band edge)
+  fit: K = 5 resonators, complex RMSE = 0.0012, max |S11| error = 0.17 dB

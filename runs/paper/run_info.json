@@ -1,0 +1,8 @@
+{
+ "mode": "full",
+ "description": "Reference outputs of the full pipeline used for the EuCAP 2027 paper (python run.py reproduce, full mode). A complete rerun reproduces every file here except the measured run times.",
+ "python": "3.13",
+ "packages": "numpy 2.5.3, scipy 1.18.1, pandas 3.0.5, scikit-learn 1.9.1, torch 2.14.1, matplotlib 3.11.2",
+ "hardware": "2-core cloud VM, CPU only",
+ "full_run_time_h": 2.0
+}

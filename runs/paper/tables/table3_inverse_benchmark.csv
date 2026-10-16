@@ -1,0 +1,9 @@
+Method,Spec. (\%),Calib. (\%),Opt. (dB),Time (s)
+Catalogue retrieval,80,49,--,$<$0.01
+Direct inverse MLP,6,1,0.0,$<$0.01
+Conditional VAE,8,1,0.2,$<$0.01
+Tandem (unconstrained),90,33,2.9,$<$0.01
+"Constr. opt., random init.",98,55,3.3,1.77
+ICP generator only,96,60,3.0,0.07
+ICP w/o constraints,94,58,6.2,1.62
+\textbf{ICP (proposed)},\textbf{98},\textbf{65},3.8,1.76

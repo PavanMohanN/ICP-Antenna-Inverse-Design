@@ -1,0 +1,5 @@
+# Only the designer (design, predict, examples) and the figures; no PyTorch needed.
+#      pip install -r requirements-designer.txt
+numpy>=2.0
+scipy>=1.13
+matplotlib>=3.8

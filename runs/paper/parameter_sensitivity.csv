@@ -1,0 +1,10 @@
+parameter,range,kriging_ARD_length_scale,kriging_relevance,median_abs_dfr_dx_MHz_per_unit
+Curve_Amp1,0.5-4,0.096,1.0,291.4
+L_Patch,15-23,0.198,0.486,197.5
+W_Patch1,8-17,0.448,0.214,26.7
+Air_gap,1.5-5,0.801,0.12,51.4
+Extra,0.5-8,0.859,0.112,24.0
+WS,0.2-1.5,1.135,0.085,84.6
+Sy,0.2-5,1.147,0.084,20.8
+W_Patch,10-23,1.493,0.064,13.1
+Sx,0.2-5,2.084,0.046,16.3

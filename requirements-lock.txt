@@ -1,0 +1,10 @@
+# Exact environment of the paper run (Python 3.13, Linux, CPU). Use it to reproduce the numbers bit for bit:
+#      pip install torch==2.14.1 --index-url https://download.pytorch.org/whl/cpu
+#      pip install -r requirements-lock.txt
+numpy==2.5.3
+scipy==1.18.1
+matplotlib==3.11.2
+pandas==3.0.5
+scikit-learn==1.9.1
+torch==2.14.1
+pytest==9.1.1

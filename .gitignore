@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+*.egg-info/
+
+# runs: only the reference run of the paper is part of the repository
+runs/*
+!runs/paper/
+runs/paper/logs/
+runs/paper/.done/
+# 12 MB derived file, rebuilt bit for bit from circuit_fits.pkl in seconds on first use (run.py)
+runs/paper/processed.npz
+
+# outputs of the tools
+demo_output/
+figures/output/
+predictions/
+designs_*/
+my_designs/
+
+# standalone executable build
+build/
+dist/
+*.spec
+
+# LaTeX by-products
+paper/*.aux
+paper/*.bbl
+paper/*.blg
+paper/*.log
+paper/*.out
+
+# system files
+.DS_Store
+Thumbs.db

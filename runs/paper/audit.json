@@ -1,0 +1,69 @@
+{
+ "n_designs": 500,
+ "n_freq": 31,
+ "f_GHz": [
+  4.0,
+  7.0
+ ],
+ "formats": {
+  "# GHz S MA": "500"
+ },
+ "free_variables": [
+  "Air_gap",
+  "W_Patch",
+  "L_Patch",
+  "Sx",
+  "Sy",
+  "W_Patch1",
+  "WS",
+  "Curve_Amp1",
+  "Extra"
+ ],
+ "fixed": {
+  "H_sub": [
+   0.79
+  ],
+  "Curve_len1": [
+   1.0
+  ]
+ },
+ "derived": {
+  "Curve_pos": {
+   "expected": "0.5*L_Patch + 2",
+   "fitted_coefficients": {
+    "L_Patch": 0.5
+   },
+   "intercept": 2.0,
+   "max_residual_mm": 3.552713678800501e-15
+  },
+  "L_Patch1": {
+   "expected": "W_Patch1 + Extra",
+   "fitted_coefficients": {
+    "W_Patch1": 1.0,
+    "Extra": 1.0
+   },
+   "intercept": 0.0,
+   "max_residual_mm": 1.7763568394002505e-14
+  }
+ },
+ "samples_csv_max_difference": 0.0,
+ "hfss_runtime": {
+  "n": 500,
+  "mean_s": 160.6,
+  "min_s": 105,
+  "max_s": 244,
+  "total_h": 22.31
+ },
+ "designs_meeting_minus10dB_on_raw_grid": 265,
+ "min_on_band_edge": {
+  "low": 2,
+  "high": 3
+ },
+ "local_minima_histogram": [
+  0,
+  115,
+  259,
+  112,
+  14
+ ]
+}

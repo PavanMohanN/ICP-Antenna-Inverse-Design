@@ -1,0 +1,6 @@
+Model,MAE (dB),$f_r$ err. (MHz),F1,P@5 (\%),$|S_{11}|{>}1$ (\%)
+Extra Trees,1.48$\pm$0.08,231,0.02,19,0.0
+Kriging,1.25$\pm$0.05,258,0.10,27,0.7
+"MLP, dB",1.52$\pm$0.09,264,0.06,25,3.7
+"MLP, Re/Im",2.59$\pm$0.25,495,0.28,21,9.3
+\textbf{PC-Net},\textbf{0.84$\pm$0.12},\textbf{118},\textbf{0.62},\textbf{55},\textbf{0.0}

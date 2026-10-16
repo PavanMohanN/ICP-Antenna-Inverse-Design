@@ -1,0 +1,110 @@
+{
+ "hfss_runtime": {
+  "text": "taking 161~s each on average (22.3~h in total)",
+  "machine_dependent": false
+ },
+ "sr_mae": {
+  "text": "mean absolute error (MAE) of 0.11~dB, against 0.35--1.24~dB for linear, spline and piecewise cubic interpolants",
+  "machine_dependent": false
+ },
+ "sr_resonant": {
+  "text": "its error of 0.31~dB is 7.2 times lower",
+  "machine_dependent": false
+ },
+ "sr_flips": {
+  "text": "It makes 20 wrong $-10$~dB decisions over the 500 designs, against at least 165 for the interpolants",
+  "machine_dependent": false
+ },
+ "sr_passivity": {
+  "text": "never violates passivity, whereas both cubic splines do",
+  "machine_dependent": false
+ },
+ "sr_example": {
+  "text": "the full-wave result is $-35.1$~dB, linear interpolation gives $-11.5$~dB and the equivalent circuit predicts $-33.0$~dB",
+  "machine_dependent": false
+ },
+ "matched": {
+  "text": "293 designs meet $-10$~dB on the 1~MHz grid against 265 on the raw grid, and 91 designs have a true minimum more than 3~dB below their best sample",
+  "machine_dependent": false
+ },
+ "fwd_mae": {
+  "text": "PC-Net lowers the MAE from 1.25 to 0.84~dB, the error near resonance from 4.13 to 2.61~dB and the resonance frequency error from 231 to 118~MHz, with 62\\% of the resonances predicted within 50~MHz",
+  "machine_dependent": false
+ },
+ "fwd_f1": {
+  "text": "(F1 score $\\le 0.10$), whereas PC-Net reaches an F1 score of 0.62",
+  "machine_dependent": false
+ },
+ "fwd_screening": {
+  "text": "The picks of PC-Net meet $-10$~dB in 55\\% of cases, against 27\\% for the best baseline and a 4.7\\% base rate, and the calibrated rule $\\mu+\\kappa\\sigma\\le-10$~dB is correct in 87.5\\% of its decisions",
+  "machine_dependent": false
+ },
+ "fwd_passivity": {
+  "text": "violates passivity in 9.3\\% of its predictions",
+  "machine_dependent": false
+ },
+ "kappa": {
+  "text": "with $\\kappa=1.22$ is an empirical one-sided 84\\% bound",
+  "machine_dependent": false
+ },
+ "kriging_recall": {
+  "text": "since kriging detects fewer than 7\\% of the matched samples",
+  "machine_dependent": false
+ },
+ "inv_n_spec": {
+  "text": "Table~\\ref{tab:inv} uses 100 specifications",
+  "machine_dependent": false
+ },
+ "inv_n_grid": {
+  "text": "and 70 single-frequency targets from 4.2 to 6.8~GHz",
+  "machine_dependent": false
+ },
+ "inv_data_only": {
+  "text": "succeed in at most 10\\% of the cases",
+  "machine_dependent": false
+ },
+ "inv_generator": {
+  "text": "The generator alone meets 96\\% of the specifications",
+  "machine_dependent": false
+ },
+ "inv_generator_time": {
+  "text": "of the specifications in 0.07~s",
+  "machine_dependent": true
+ },
+ "inv_icp": {
+  "text": "The complete ICP search meets 98\\% of the specifications",
+  "machine_dependent": false
+ },
+ "inv_icp_time": {
+  "text": "returns five diverse designs per query in 1.8~s",
+  "machine_dependent": true
+ },
+ "inv_calibrated": {
+  "text": "has the highest calibrated success, 65\\%, against 55\\% for constrained optimisation from random starts and 33\\% for the unconstrained tandem network",
+  "machine_dependent": false
+ },
+ "inv_optimism": {
+  "text": "raises the median optimism from 3.8 to 6.2~dB",
+  "machine_dependent": false
+ },
+ "inv_catalogue": {
+  "text": "Retrieval from the simulated catalogue succeeds in 80\\% of the specifications, but above 6.5~GHz at most seven designs meet",
+  "machine_dependent": false
+ },
+ "inv_amortisation": {
+  "text": "the search reaches 74\\% calibrated success without any refinement, against 46\\% for random initialisation",
+  "machine_dependent": false
+ },
+ "physics_fL": {
+  "text": "$fL=97.3\\pm2.9$~GHz$\\cdot$mm of the driven patch, close to $96.8\\pm5.1$~GHz$\\cdot$mm",
+  "machine_dependent": false
+ },
+ "sensitivity": {
+  "text": "which they change by about 0.29 and 0.20~GHz per millimetre",
+  "machine_dependent": false
+ },
+ "band_case": {
+  "text": "the predicted mean band of 4.35--5.51~GHz covers the requirement, whereas the calibrated bound narrows it to 4.42--5.22~GHz",
+  "machine_dependent": false
+ }
+}
