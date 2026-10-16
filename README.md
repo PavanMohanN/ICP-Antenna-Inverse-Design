@@ -252,17 +252,14 @@ python run.py figures --to-paper                   # overwrite paper/figures/*.p
 
 * The figures are drawn by one editable script, `figures/make_figures.py`. It needs only NumPy and matplotlib.
 * It reads small data files from `runs/<run>/figure_data/`, so restyling a figure never needs retraining.
-* Global style (fonts, sizes, colours) is at the top of the script. Each figure has its own function, commented per panel.
-* With unchanged settings it redraws the paper figures. The font is Times New Roman, or a metric-compatible substitute such as Liberation Serif; with another substitute the layout can shift by a pixel.
 
-| Paper figure | Function | Content |
+| Figure | Function | Content |
 |---|---|---|
 | Fig. 2 | `fig_framework` | ICP framework diagram |
 | Fig. 3 | `fig_extraction` | frequency hold-out test of the equivalent circuit (Smith chart and magnitude) |
 | Fig. 4 | `fig_forward` | PC-Net on unseen geometries: responses, resonance parity, screening precision |
 | Fig. 5 | `fig_inverse` | inverse design: amortisation curve, f·L scaling, predicted S11 of Table IV designs |
 
-Fig. 1 is the antenna drawing, `paper/Pics/Ant.png`.
 
 ---
 
